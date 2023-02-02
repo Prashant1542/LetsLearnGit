@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xmlns:context="http://www.springframework.org/schema/context"
+  xmlns:p="http://www.springframework.org/schema/p" 
+   xmlns:c="http://www.springframework.org/schema/c" 
+   xmlns:util="http://www.springframework.org/schema/util" 
+  xmlns:tx="http://www.springframework.org/schema/tx" 
+  xsi:schemaLocation="http://www.springframework.org/schema/beans 
+  http://www.springframework.org/schema/beans/spring-beans.xsd 
+  http://www.springframework.org/schema/context 
+  http://www.springframework.org/schema/context/spring-context.xsd
+   http://www.springframework.org/schema/util 
+  http://www.springframework.org/schema/util/spring-util.xsd
+   http://www.springframework.org/schema/tx 
+   http://www.springframework.org/schema/tx/spring-tx.xsd ">
+<!-- <bean class="com.spring.first.First" name="first">
+<property name="id" value="1256"/>
+<property name="name" value="Ashish"/>
+<property name="address" value="Dehradun"/>
+
+</bean> -->
+
+<!-- <bean class="com.spring.first.First" name="first" p:id="1554" p:name="Gagan" p:address="Haridwar"></bean>
+ -->
+<!-- <bean class="com.spring.first.First" name="first" c:id="155" c:name="argon" c:address="kotdwar"></bean>
+ -->
+ 
+<bean class="com.spring.first.First" name="first">
+<constructor-arg name="id" value="2546"/>
+<constructor-arg name="name" value="Anand"/>
+<constructor-arg name="address" value="jamshedpur"/>
+
+</bean> 
+</beans>
